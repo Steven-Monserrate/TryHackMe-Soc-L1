@@ -1,0 +1,18 @@
+#NOTE: This is a lessons learned review from TryHackMe's SOC L1 - Systems as Attack Vectors lab
+
+#While preparing users for attacks is always a good thing, it isn't the end all be all. A castle gate with a cheap padlock isn't secure as one with a vaulted lock and barricades.
+
+#Protecting systems is the key to cyber defense. Failing to do so can result in attackers stealing data, exploiting companies via blackmail, or using compromised systems to form a 
+#botnet.
+
+#81% of breaches were the direct result of lost or stolen passwords. Users should never reuse passwords, share passwords, or fail to renew passwords off of standardized renewal times.
+
+#Every piece of software has vulnerabilities. The problem is whether or not we know about them.
+
+#Attackers will exploit software vulnerabilities wherever possible. They can even utilize flaws in the system that aren't known yet to defenders. These are called "Zero-Days."
+
+#Whenever a major exploit is discovered, it is best to set up an IPS or WAF to prevent data loss until a patch to the vulnerability can be applied.
+
+#Misconfigurations are oftentimes dangerous flaws that could be prevented. Resetting a manufacturer's password, changing the default settings, or performing penetration tests can
+#help to explain where the attackers could exploit the defended system.
+
