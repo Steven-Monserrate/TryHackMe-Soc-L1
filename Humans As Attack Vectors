@@ -1,0 +1,19 @@
+#Lessons Learned:
+
+#Humans are typically the most vulnerable targets for attackers to exploit. While executing code and using hacking tools can get one into the targeted system, it often takes a 
+#lot of time
+
+#Humans, however, are much easier to manipulate. one click, or even one secret shared, can be significantly more impactful than any line of code
+
+#Attackers often execute attacks based on manipulating human psychology, known as "social engineering." These attacks are reliant on two factors: Trust and Emotions
+
+#Attackers will do everything they can to make themselves appear trustworthy - similar email addresses to real companies, pretending to have shared values, etc.
+
+#Attackers also rely heavily on emotions. Senses of urgency, fear, or curiousity can be heavily manipulated
+
+#Defending humans is vital in defending systems. Catching an attack before it ever reaches a human is ideal. Since it's not always possible, teaching human users to report suspected
+#attacks is necessary. SOC teams handle everything that got through both their tools and the training given to their protected humans.
+
+#Humans are vulnerable - no one is perfect. Even with training, we are all prone to error. As SOC analysts, it's our duty to help prevent data loss and damage to systems when access
+#is improperly given. It's better to verify and delay a process/approval than it is to grant access to the wrong person!
+
