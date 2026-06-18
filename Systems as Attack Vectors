@@ -16,3 +16,6 @@
 #Misconfigurations are oftentimes dangerous flaws that could be prevented. Resetting a manufacturer's password, changing the default settings, or performing penetration tests can
 #help to explain where the attackers could exploit the defended system.
 
+#Patch updates and mitigation can only solve so much. In order for a system to be as secure as possible, there needs to be a balance of updates, employee awareness training, and proper configuration.
+
+#I earned a badge! https://tryhackme.com/dashboard?badge=smonserrate3:first-step-into-soc
