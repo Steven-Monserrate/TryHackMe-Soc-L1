@@ -1,0 +1,21 @@
+#SOC teams revolve around alerts, investigation, and remediation. Whenever an event occurs, like a user login or file download, a log is created by the OS, a firewall, or a cloud provider.
+
+#All logs are then shipped to a centralized information hub, like a SIEM or EDR tool.
+ 
+#A SOC team often receives millions of logs per day from thousands of different systems. While a majority of them are normal, a small number require closer inspection.
+
+#SIEMs can generate tons of alerts every day, so they often categorize them by time, name, severity, status, verdict, assignee, and actions taken to make navigation and response time easier.
+
+#Alert prioritization is crucial for managing threats. SOC Analysts often prioritize high level alerts first, like DDoS attacks, instead of low-level alerts, like a single failed password.
+
+#Playbooks (also known as Workbooks or Runbooks) – Instructions on how to investigate the specific category of alerts.
+
+#In the lab, I completed a triage of three alerts with varying severity.
+
+#Critical alert – CFO account accessed overseas. Alert was resolved as a false positive. CFO was traveling to Japan at the time of the alert and
+#accessed her computer without a VPN.
+
+#High alert – Double-Extension File Creation – A phishing attempt was caught and prevented from being executed. Attacker tried to utilize an mp4.exe.
+
+#Low alert – Download from Github repository – An alert was flagged since a user liked a Facebook comment talking about Github. Github repositories must be reviewed prior to use in order to avoid phishing
+#attacks. Since this one was only a Facebook post reaction, it didn’t qualify, and no harm was done.
