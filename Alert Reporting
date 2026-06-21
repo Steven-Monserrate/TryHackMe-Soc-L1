@@ -1,0 +1,75 @@
+#SOC teams are divided into different tiers to respond to incidents and keep data safe.
+
+#Tier 1 is the filter for the rest of the team. They respond to alerts and verify if it needs escalation or can be handled at that level.
+
+#Tier 2 is the more experienced filter. They can handle a broader range of incidents and respond appropriately to them. If Tier 2 notices that an event
+#happened that may require deeper investigation and immediate response, IR can be called in.
+
+#IR handles everything from incident handling, forensics, and cross-team communication.
+
+#The ultimate goal is to keep the data safe!
+
+#SOC L1s need to know the importance of writing reports:
+
+#Clear reports save time for L2 analysts and help them know what happened.
+
+#Reports can save SIEM findings for records.
+
+#Writing reports helps the L1 analyst better understand what they’re doing.
+
+#Five W’s: Who, What, When, Where, Why
+
+#Lab work
+#Escalated a phishing email alert to tier 2 and left a report explaining the situation.
+
+#Lab Assignment 1
+
+#Phishing email was recognized as a phishing attempt and triaged to L2 SOC Analyst:
+
+#At 19:25 UTC, user Eddie Huffman (IT Manager) clicked on and reported a suspected phishing link. The link is a spoof to Microsoft, warning of an upcoming price increase.
+
+#Subject:
+
+#Important Update: Microsoft Teams Pricing Increase
+
+#Body Keywords:
+
+#600% price increase; urgent notice; download the report; read the details;
+
+#Sender:
+
+#Microsoft Support<support@microsoft.com>
+
+#Recipient:
+
+#Eddie Huffman, IT Manager<e.huffman@tryhackme.thm>
+
+#Security Checks:
+
+#SPF/Fail; DKIM/Fail;
+
+#Attached URLs:
+
+#None
+
+#Attached Files:
+
+#REPORT.rar
+
+#Lab Assignment 2
+#Starting at 19:56 UTC and continuing now, it is likely that NT AUTHORITY\SYSTEM is a compromised system. 
+
+#EDR detected a spike of commands like whoami, net user, and Get-ADUser, often used during AD domain discovery. 
+#These are not IT activity or legitimate scripts, indicating that the device was compromised.
+
+#Processes also indicate an issue with original execution patterns, executing a chain of events that shouldn't be verified.
+
+#C:\Windows\System32\cmd.exe
+
+#Parent Process:
+
+#C:\Users\Public\revshell.exe
+
+#Grandparent Process:
+
+#C:\Windows\System32\inetsrv\w3wp.exe
