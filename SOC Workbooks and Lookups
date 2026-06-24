@@ -1,0 +1,50 @@
+#The Following are Workbooks created for various SOC L1 Scenarios:
+
+#Workbook for External Email with Script or Binary Attachment
+
+#1. Take ownership of the alert, use identity resources to get context of the email recipients
+
+#2. Investigate the Email using EML analyzer; its SPF/DKIM, content, and sender domain reputation
+
+#3. Continue to the attachment analysis: use sandbox for binaries and manual code review for scripts
+
+#4. Determine: is the attachment malicious, origin faked, or email is unexpected for the recipient’s roles?
+  #a. If yes:
+    #i. Gather triage evidence, recipient list, sandbox report, EML analyzer results, or other attack indicators
+    #ii. Write an alert report for L2 explaining the findings, attach the triage
+evidence to the report
+  #b. If no:
+    #i. Write a short alert comment explaining why you are confident that the email is safe and expected
+
+#Workbook for Executable File Download using PowerShell
+
+#1. Assign the alert to yourself, get context of the affected machine using asset inventory
+
+#2. Use threat intel to analyze the URL, and perform static analysis of the downloaded executable
+
+#3. Build a process tree to find out the parent process and account used to start PowerShell
+
+#4. Is the file malicious, downloaded from untrusted resource, or originates from a suspicious process?
+  #a. If yes:
+    #i. Save the results of the “[WIN] Process Tree” and “[WIN] Login Timeline” SIEM searches
+    #ii. Write an alert report for L2. Attach your evidence, assumptions, and SIEM search results
+    #iii. Escalate to L2
+  #b. If no:
+    #i. Write a brief comment to SOC engineers and let them know to tune the detection tool
+
+#Workbook for Port Scanning from Internal IP
+
+#1. Assign the alert to yourself, get the IPs context from the network map and asset inventory
+
+#2. List ports canned by the IP, find out which services could be running on the ports
+
+#3. If source is a corporate Nexus/Zabbix/etc., verify if the scanning pattern is expected
+
+#4. Is the source IP unlisted or does the scanning pattern remind malicious Discovery attempt?
+  #a. If yes:
+    #i. Collect your evidence, attack time range, scanned ports, and IP context
+    #ii. Write an alert report, explain your verdict, and attach the evidence for L2 review
+    #iii. Escalate to L2
+  #b. If no:
+    #i. Write an alert comment, explain your verdict, and reach out to SOC engineers to tune the rule
+    #ii. Close as FP
