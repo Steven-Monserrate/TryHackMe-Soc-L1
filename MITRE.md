@@ -29,4 +29,4 @@
 #Scenario: You are a security analyst in the aviation sector, and your organization is migrating its infrastructure to the cloud. Your task is to use ATT&CK to gather intelligence on APT groups known to target this sector, identify their tactics and
 #techniques, and assess any potential gaps in your defensive coverage.
 
-![alt text] (.png6)
+![alt text] (6.png)
