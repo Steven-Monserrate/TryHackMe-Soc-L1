@@ -12,7 +12,7 @@
 
 #Upload file as .JSON
 
-![image alt](1.png)
+![image alt](photos/1.png)
 
 ![image alt](2.png)
 
