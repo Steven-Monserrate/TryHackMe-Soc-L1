@@ -50,11 +50,11 @@
 
 #Lab 5
 
-![alt text](Photos/12)
+![alttext](Photos/12)
 
-![alt text](Photos/13)
+![alttext](Photos/13)
 
-![alt text](Photos/14)
+![alttext](Photos/14)
 
 #TTP - The attackers plans and objectives
 #Tools - The attacker has utilized these to accomplish their objectives
