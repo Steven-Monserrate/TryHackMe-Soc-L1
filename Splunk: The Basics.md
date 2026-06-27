@@ -12,21 +12,21 @@
 
 #Upload file as .JSON
 
-![image alt](photos/1.png)
+![image alt](Photos/1.png)
 
-![image alt](2.png)
+![image alt](Photos/2.png)
 
 #Rename Host field value as "VPN_Connections"
 
 #Once file is uploaded properly, utilize information tab to find top-level data:
 
-![image alt](3.png)
+![image alt](Photos/3.png)
 
 #For data that requires searching, such as finding how many VPN events are associated with a specific IP address, or which username
 #is associated with a specific IP address, utilize SPL in the searchbar with the following lines:
 
-![image alt](4.png)
+![image alt](Photos/4.png)
 
-![image alt](5.png)
+![image alt](Photos/5.png)
 
 #Doing so helps to find specific data without needing to manually comb over thousands of records.
