@@ -1,0 +1,35 @@
+#Unified Kill Chain
+
+#Notes:
+
+#Kill Chain – A term used to explain the various stages of an attack (og. Military)
+
+#Threat modeling – A series of steps to ultimately improve the security of a system
+
+#Asset – The technical term for a piece of software or hardware in IT
+
+#Unified Kill Chain – Not a direct competitor to the Lockheed Martin cyber kill chain and MITRE’s ATT&CK, but rather a complement
+  #Believes in 18 phases of attack:
+    #Reconnaissance
+    #Weaponization
+    #Delivery
+    #Social Engineering
+    #Exploitation
+    #Persistence
+    #Defense Evasion
+    #Command and Control
+    #Pivoting
+    #Discovery
+    #Privilege Escalation
+    #Execution
+    #Credential Access
+    #Lateral Movement
+    #Collection
+    #Exfiltration
+    #Impact
+    #Objectives
+
+#Lab:
+
+#This room didn’t necessarily have a lab per se, but more of a question and answer section. The lab covered identifying different phases of the UKC, and what each phase
+#did.
