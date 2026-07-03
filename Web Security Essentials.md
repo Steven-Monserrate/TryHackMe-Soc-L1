@@ -36,13 +36,13 @@
 
 #LAB:
 
-#Scenario: [!Alt text](27.png)
+#Scenario: [!Alt text](Photos/27.png)
 
 #Goals: select the right answer to secure all three layers of the website
 
-[!Alt text](28.png)
+[!Alt text](Photos/28.png)
 
-[!Alt text](29.png)
+[!Alt text](Photos/29.png)
 
 [!Alt text](30.png)
 
