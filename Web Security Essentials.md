@@ -44,18 +44,18 @@
 
 ![alt text](Photos/29.png)
 
-![alt text](30.png)
+![alt text](Photos/30.png)
 
-![alt text](31.png)
+![alt text](Photos/31.png)
 
-![alt text](32.png)
+![alt text](Photos/32.png)
 
-![alt text](33.png)
+![alt text](Photos/33.png)
 
-![alt text](34.png)
+![alt text](Photos/34.png)
 
-![alt text](35.png)
+![alt text](Photos/35.png)
 
-![alt text](36.png)
+![alt text](Photos/36.png)
 
-![alt text](37.png)
+![alt text](Photos/37.png)
