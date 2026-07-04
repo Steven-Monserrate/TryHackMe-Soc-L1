@@ -20,18 +20,18 @@
 
 #Lab
 
-![alt text](Photos/40)
+![alt text](Photos/40.png)
 
-![alt text](Photos/41)
+![alt text](Photos/41.png)
 
 #TAP 1 – Between WP1 and FW1
   #All devices in the network send their HTTP(S) requests to the Web Proxy. The proxy then initiates the connection to the destination. Placing the tap on this device means capturing all web traffic exiting and entering the network
 
-![alt text](Photos/42)
+![alt text](Photos/42.png)
 
 #Scroll through pages to page 3, then review the “body preview” to see the flag
 
-![alt text](Photos/43)
+![alt text](Photos/43.png)
 
 #TAP 2 – Between SW01 and SRV-DNS
   #SRV-DNS handles all external DNS queries and replies on behalf of the host, which means all external DNS traffic passes through it
