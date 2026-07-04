@@ -39,4 +39,4 @@
 #Scroll until you find the Standard Query response with TXT c2.tryhackrne.thn.
   #Remember that the DNS for this website should be tryhackme
 
-![alt text](Photos/44)
+![alt text](Photos/44.png)
