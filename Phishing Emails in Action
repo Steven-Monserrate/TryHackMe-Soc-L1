@@ -1,0 +1,20 @@
+#Spoofed email address: Mimicking a trusted service to gain immediate credibility
+
+#URL shortening: Using redirection services to hide the true destination of a link
+
+#Branded HTML: Impersonating legitimate corporate imagery to create a sense of authenticity
+
+#Pixel tracking: Embedding invisible images to notify the sender when the email is opened
+
+#Link manipulation: Masking a malicious destination with a fraudulent tracking number
+
+#Defang a URL – putting brackets around the “.” so that the link can’t accidentally be used
+  #Ex. Github[.]com
+
+#Artificial urgency: Creating a narrow window for action to create a sense of urgency
+
+#Brand impersonation: Layering trusted brands, like Microsoft and Adobe, to build a false sense of security
+
+#Link redirection: Using a chain of URLs to hide the final malicious destination from basic email filters
+
+#Credential harvesting: Deploying a fake login portal to capture and exfiltrate usernames and passwords
