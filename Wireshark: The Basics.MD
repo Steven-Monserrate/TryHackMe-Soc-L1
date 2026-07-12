@@ -78,3 +78,36 @@
   ![alt text](Photos/85.png)
   #What is the e-tag value?
   ![alt text](Photos/86.png)
+
+#Lab Part 3
+
+#Wireshark color coding meaning
+  #Blue - Information on usual workflow
+  #Cyan - Notable events like application error codes
+  #Yellow - Warnings like unusual error codes or problem statements
+  #Red - problems like malformed packets
+
+#Questions:
+  #Use the "Exercise.pcapng" file to answer the questions. Search the "r4w" string in packet details. What is the name of artist 1?
+  #To find the answer, click on "Edit", "Find Packet," then serach by string and "r4w" to find the answer
+  ![alt text](Photos/87.png)
+  #Go to packet 12 and read the packet comments. What is the answer? Note:" use md5sum <filename> terminal command to get MD5 hash
+    #Comments read: "Go to packet number 39765. Look at the packet details pane. Right-click on the JPEG section and "EX...
+  ![alt text](Photos/88.png)
+
+#Lab Part 4
+#Wireshark has a powerful filter engine that helps analyst to narrow down the traffic and focus on the event of interest
+  #Two types of filtering approaches: Capturing and Viewing
+#Filters are specific queries designed for protocol savailable in Wireshark's official protocol reference
+#The golden rule for analysts who don't want to write queries for basic tasks: "If you can click on it, you can filter and copy it"
+
+#Questions:
+#Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter
+  #What is the filter query?
+  ![alt text](Photos/89.png)
+  #What is the number of displayed packets?
+  ![alt text](Photos/90.png)
+  #What is the total number of artists?
+  ![alt text](Photos/91.png)
+  #What is the name of the second artist?
+  ![alt text](Photos/92.png)
